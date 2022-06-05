@@ -1,0 +1,119 @@
+*{
+
+    margin:0;
+    padding:0;
+}
+.align-center{
+    text-align: center;
+}
+body{
+    padding:100px;
+}
+.container{
+    width:100%;
+    padding:40px;
+    border-radius: 10px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-bottom:10px
+  }
+  .submit-btn{
+      padding:10px 20px;
+      border-radius: 5px;
+      border:none;
+      background-color:green;
+      color:white;
+      font-size: 20px;
+      cursor: pointer;
+  }
+  .login{
+      font-size: 40px;
+      margin-bottom:10px;
+      
+      
+  }
+  .submit-area{
+      margin-top:50px;
+      padding:40px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      
+  }
+  #transaction-area{
+      display: none;
+  }
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 100px;
+  }
+  .col-md-4{
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+   
+  }
+  .deposit, .balance, .withdraw{
+    margin:0px 20px;
+    padding:20px;
+    border-radius: 10px;
+    color:white;
+    font-size: 24px;
+    line-height:40px;
+  }
+  .deposit{
+      background-color:slateblue;
+      
+     
+  }
+  .withdraw{
+      background-color:lightcoral;
+      
+  }
+  .balance{
+      background-color: orange;
+     
+  }
+  .col-md-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+   
+  }
+  .deposit-input-area , .wothdraw-input-area{
+    margin:0px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding:20px;
+    border-radius: 10px;
+    line-height: 50px;
+  }
+  .withdraw-input, .deposit-input{
+      padding:8px;
+      width:80%;
+  }
+  .withdraw-btn, .deposit-btn{
+      padding:10px 16px;
+      background-color: green;
+      color:white;
+      font-weight: bold;
+      cursor:pointer;
+      border:none;
+      border-radius: 5px;
+      
+  }
