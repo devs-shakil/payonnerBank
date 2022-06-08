@@ -41,6 +41,11 @@ withdraw.addEventListener('click', function(){
     const withdrawTotal = withdrawInputNumber + withdrawAmountNumber;
     document.querySelector('.withdraw-amount').innerText = withdrawTotal;
     document.querySelector('.withdraw-input').value = "";
+    const totalBalanceWithdraw = document.querySelector('.total-balance').innerText;
+    const totalBalanceWithdrawNumber = parseFloat(totalBalanceWithdraw);
+    const updateTotalBalanceWithdraw = totalBalanceWithdrawNumber - withdrawInputNumber;
+    document.querySelector('.total-balance').innerText = updateTotalBalanceWithdraw;
 
-    console.log(withdrawTotal);
+
+    console.log(updateTotalBalanceWithdraw);
 })
